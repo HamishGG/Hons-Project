@@ -1,0 +1,215 @@
+header, nav, section, footer {display:block;}
+
+	body {
+	margin:0px auto;
+	padding:0px;
+	width:100%;
+	font-size:12px;
+	background-color: #54DEFD;
+	}
+	p, li, body > footer span { font-size:1.5em; }
+	h3 { font-size:1.7em; } 
+	h2 { font-size:2.0em; } 
+	h1 { font-size:2.5em;}
+	header {
+	height:200px;
+	width: 100%;
+	padding:0px 10px;
+	background-color:#54DEFD;
+	background-image: url("../assets/logo.jpg");
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position:left;
+
+}
+	header h1 { 	
+	margin:0px;
+	text-align: center;
+	padding-top:35px;
+	font-size:120px;
+	color:black; 
+	}
+	
+	nav {
+	width:100%;
+	height:45px;
+	box-shadow: 0px 2px grey;
+	background-color: #246EB9;
+}
+nav ul {
+	margin:0px;
+	padding:0px;
+}
+nav ul li {
+	list-style-type:none;
+	text-align:center;
+}
+body > nav ul li {
+	width:160px;
+	float:left;
+	background-color:#246EB9;
+	color:black;
+
+}
+body > nav ul li a { display:inline-block;width:120px;margin:0px; }
+nav ul li a {
+	width:160px;
+	background-color:#246EB9;
+	color:black;
+}
+nav ul li a:link, nav ul li a:visited {
+	width:160px;
+	background-color:#246EB9;
+	color:black;
+
+}
+
+nav ul li a:hover, nav ul li a:active {
+	width:160px;
+	background-color:#246EB9;
+	color:black;
+}
+
+section { width:100%; display:block;}
+section h1 {
+	padding:5px;
+	margin:0px;
+}
+
+/*
+margin left + border left + padding left + width + padding right + border right + margin right
+
+Width of article + aside =
+
+- Article -
+5px + 1px + 5px + 606px + 5px + 1px + 5px = 628px
+
+- Aside -
+5px + 1px + 5px + 150px + 5px + 1px + 5px = 172px
+
+Total width = 628 + 172 = 800px
+*/
+
+body > footer {
+	clear:both;
+	padding-top:5px;
+	height:45px;
+	background-color:#246EB9;
+}
+body > footer > nav {
+	width:auto;
+	float:right;
+	height:30px;
+	margin:0px;
+	padding:0px;
+	background-color:#246EB9;
+}
+body > footer > nav ul li {
+	width:auto;
+	height:auto;
+	float:right;
+	margin-top:5px;
+}
+body > footer > span {
+	float:left;
+	width:250px;
+	margin:0px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+body > footer > nav ul li a {
+	
+	height:inherit;
+	width:auto;
+	padding:5px 20px 5px 20px;
+	margin-top:5px;
+}
+
+.main
+{
+	margin:0px auto;
+	margin-top: 5px;
+	padding:5px;
+	width:75%;
+	height:auto;
+	font-size:12px;
+	background-color: #F4DBD8;
+	border-style: solid;
+	border-width: thin;
+	
+}
+
+.form
+{
+	margin:0px auto;
+	margin-top: 5px;
+	padding:5px;
+	margin-left: 10px;
+	width:960px;
+	float: left;
+	font-size:12px;
+	background-color: #d0debb;
+	border-style: solid;
+	border-width: thin;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 45px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+
+table.ShippingTimeTable {
+  font-family: "Arial Black", Gadget, sans-serif;
+  border: 1px solid #FFFFFF;
+  width: 75%;
+  height: 45%;
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.ShippingTimeTable td, table.ShippingTimeTable th {
+  border: 2px solid #000000;
+  padding: 4px 2px;
+}
+table.ShippingTimeTable tbody td {
+  font-size: 8px;
+}
+table.ShippingTimeTable tr:nth-child(even) {
+  background: #D0E4F5;
+}
+table.ShippingTimeTable thead {
+  background: #0B6FA4;
+  border-bottom: 2px solid #000000;
+}
+table.ShippingTimeTable thead th {
+  font-size: 10px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+}
+table.ShippingTimeTable tfoot td {
+  font-size: 15px;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}

@@ -1,0 +1,157 @@
+body {
+	margin:0px auto;
+	padding:0px;
+	width:100%;
+	font-size:12px;
+	background-color: #54DEFD;
+}
+
+body {visibility:hidden;}
+.do_not_print {visibility:hidden;}
+.print {visibility:visible;}
+
+
+header {
+	height:200px;
+	width: 100%;
+	padding:0px 10px;
+	background-color:#54DEFD;
+	background-image: url("../assets/logo.jpg");
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position:left;
+}
+header h1 {
+	margin:0px;
+	text-align: center;
+	padding-top:35px;
+	font-size:120px;
+	color:black;
+	
+}
+nav {
+	width:100%;
+	height:45px;
+	box-shadow: 0px 2px grey;
+	background-color: #246EB9;	
+}
+
+body > nav ul li {
+	width:160px;
+	float:left;
+	background-color:#246EB9;
+	color:black;
+
+}
+body > nav ul li a {
+	width:160px;
+	background-color:#246EB9;
+	color:black;
+}
+aside {
+	height:100%;
+	width:298px;
+	float:right;
+}
+/*
+margin left + border left + padding left + width + padding right + border right + margin right
+
+Width of article + aside =
+- Article -
+5px + 1px + 5px + 618px + 5px + 1px + 5px = 640px
+
+- Aside -
+5px + 1px + 5px + 298px + 5px + 1px + 5px = 320px
+
+Total width = 640 + 320 = 960px
+
+*/
+body > footer > nav {
+	float:right;
+}
+body > footer > span {
+	float:left;
+	width:320px;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 644px;
+    height: 50px;
+	padding:5px;
+    margin: 0 auto;
+	background-color:#246EB9;
+}
+
+.main
+{
+	margin:0px auto;
+	margin-top: 5px;
+	padding:5px;
+	width:75%;
+	font-size:12px;
+	background-color: #F4DBD8;
+	border-style: solid;
+	border-width: thin;
+	margin-bottom:5px;
+	
+}
+
+.form
+{
+	margin:0px auto;
+	margin-top: 5px;
+	padding:5px;
+	margin-left: 10px;
+	width:960px;
+	float: left;
+	font-size:12px;
+	background-color: #d0debb;
+	border-style: solid;
+	border-width: thin;
+}
+
+
+a .hover-img { 
+  position:relative;
+  cursor: context-menu;
+  color: #0060B6;
+  text-decoration: none;text-decoration: none;
+ }
+a .hover-img figure {
+  position:fixed; left:-9999px; /*top:-9999px;*/ z-index:9999;
+ }
+a:hover .hover-img figure { 
+	left:30px;
+	position:fixed;  
+	bottom: 40px;
+	z-index: 99;
+
+}
+
+
+
+figure figcaption { 
+	background-color:rgba(255,255,255,0.8);
+ }
+ 
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 45px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
